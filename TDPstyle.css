@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+*{box-sizing: border-box;}
+html, body{background-color: #001440; height: 100%; width: 100%; margin: 0; padding: 0; font-family: 'Montserrat', sans-serif; color: white; font-size: 1.1em; scroll-behavior: smooth;}
+#nav-bar{position: fixed; width: 300px; min-width: 280px; height: 100%; border-color: orange; padding: 2rem;}
+nav ul{display: flex; flex-flow: column wrap; justify-content: center; align-items: flex-start;}
+header{font-size: 2em; font-weight: 700;}
+nav header{font-size: 1.5em;}
+#nav-bar ul{list-style: none;}
+#nav-bar ul li{padding: 25px 5px;}
+#nav-bar ul li:hover{background-color: orange; border-radius: 2px; transition: 0.5s;}
+#nav-bar ul li a{text-decoration: none; color: white; cursor: pointer;}
+#nav-bar ul li a:hover{font-size: 1.5em; transition: 0.5s;}
+#main-doc{position: absolute; padding: 1rem; margin-left: 320px; margin-bottom: 3rem;}
+code{background-color: #ccc; padding: 1em; margin: 15px 0; display: block;}
+@media (max-width: 768px){#nav-bar{position: fixed; top: 0; height: 250px; width: 100%; display: block; padding: 0; margin: 0; text-align: center; background-color: white; border: 0; border-bottom: 3px solid orange; z-index: 1; overflow: hidden;} #nav-bar header{padding: 2px; margin: 0; color: #001440; background-color: #ccc;} #nav-bar ul{display: block; align-items: center; height: 150px; padding: 2px; overflow-y: auto;} #nav-bar ul li a{color: #001440; cursor: pointer;} #nav-bar ul li{padding: 10px 5px;} #nav-bar ul li:hover{background-color: white; transition: 0.5s;} .main-body{margin-top: 270px;} #main-doc{position: absolute; height: 100%; padding: 2em; margin: 0; margin-bottom: 2em;}}
